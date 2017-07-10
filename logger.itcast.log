@@ -1,0 +1,5 @@
+2017-07-03 01:10:21,937 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Unsuccessful: alter table stu-teacher add index FK4410F9498D461BC5 (student_id), add constraint FK4410F9498D461BC5 foreign key (student_id) references studenttest (id)
+2017-07-03 01:10:21,937 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-teacher add index FK4410F9498D461BC5 (student_id), add constraint FK4410F9498D4' at line 1
+2017-07-03 01:10:21,938 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
+2017-07-03 01:10:22,319 [main] INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2017-07-03 01:10:22,320 [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider - cleaning up connection pool: jdbc:mysql://localhost:3306/day16
